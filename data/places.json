@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "places": [
+    {
+      "id": "qassim-cafe-01",
+      "city": "qassim",
+      "category": "cafe",
+      "name_ar": "سلم كافية",
+      "name_en": "SLM Cafe",
+      "neighborhood_ar": "عثمان بن عفان",
+      "google_rating": 4.5,
+      "google_reviews_count": 1753,
+      "rating_checked_on": "2026-10-01",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": ["جلسات خارجية", "قهوة مختصة"],
+      "hours_ar": "٥ص – ٣ص",
+      "best_time_ar": "",
+      "maps_url": "https://maps.app.goo.gl/bYffEyfhsukvDQ4c8",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-cafe-02",
+      "city": "qassim",
+      "category": "cafe",
+      "name_ar": "محمصة تلو كافية",
+      "name_en": "Tilo",
+      "neighborhood_ar": "الجزيري",
+      "google_rating": 4.5,
+      "google_reviews_count": 1387,
+      "rating_checked_on": "2026-10-01",
+      "price_level": 2,
+      "family_friendly": false,
+      "tags_ar": ["محمصة"],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://maps.app.goo.gl/Mh2d1yp9ZNtuk9n7A",
+      "description_ar": ""
+    }
+  ]
+}
