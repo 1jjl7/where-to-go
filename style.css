@@ -199,7 +199,10 @@ body[data-city="khobar"] .rank { color: #C08A50; }
 .chip.cat { color: var(--cat); }
 
 .card .name { font-size: 1.45rem; }
-.name-alt { margin: -8px 0 0; color: var(--muted); font-size: 0.85rem; text-align: start; }
+.name-alt { margin: -8px 0 0; color: var(--muted); font-size: 0.85rem; }
+/* The other-language name has its own dir, so align it to the page side explicitly */
+[dir="rtl"] .name-alt, [dir="rtl"] .place-name-alt { text-align: right; }
+[dir="ltr"] .name-alt, [dir="ltr"] .place-name-alt { text-align: left; }
 
 .rating { display: flex; align-items: center; gap: 6px; margin: 0; }
 .star { width: 18px; height: 18px; fill: var(--accent); }
@@ -222,6 +225,7 @@ body[data-city="khobar"] .star { fill: #C08A50; }
   transition: background-color 0.25s;
 }
 .btn:hover { background: var(--primary-dark); }
+button.btn { border: 0; width: 100%; }
 
 .card .name a { color: inherit; text-decoration: none; }
 .card .name a:hover { color: var(--primary); }
@@ -264,7 +268,7 @@ body[data-city="khobar"] .star { fill: #C08A50; }
 .place-hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
 .place-hero-content { position: relative; padding: 64px 0 40px; }
 .place-hero h1 { font-size: clamp(2.2rem, 5.5vw, 4rem); }
-.place-name-alt { margin: 4px 0 0; opacity: 0.85; text-align: start; }
+.place-name-alt { margin: 4px 0 0; opacity: 0.85; }
 .breadcrumb { display: flex; gap: 8px; margin-bottom: 12px; font-size: 0.95rem; }
 .breadcrumb a { color: #FFFFFF; }
 
