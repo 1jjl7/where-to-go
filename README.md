@@ -97,7 +97,7 @@ python check_places.py
 
 - **Visitor reviews are stored only in the visitor's own browser** (`localStorage`). Other visitors cannot see them yet; a real database is planned.
 - **Ratings are a snapshot** from 2 October 2026 and need to be re-checked over time.
-- **Hero photos** were collected from the web during design; their licenses must be confirmed (or the photos replaced) before the site is published.
+- **Hero photos** are from the web and their licenses are unconfirmed; they will be replaced with openly licensed ones.
 - Ithra is listed under Al Khobar although it is in neighbouring Dhahran.
 
 ## Planned

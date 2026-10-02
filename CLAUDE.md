@@ -7,7 +7,10 @@ Static site (HTML/CSS/JS) for 4 Saudi cities: riyadh, qassim, khobar, jeddah.
 - Add places: send Google Maps link + rating | reviews | price | family | neighborhood
 - Design: 4 pages per city (Home, Place, DayPlan, Mobile), one palette per city
 - Never invent ratings; every place is verified on Google Maps with a date
-- Hero photos: check licenses before publishing
+- Hero photos (assets/img/): licenses unconfirmed; replace with openly licensed ones
+- Live: https://1jjl7.github.io/where-to-go/ (GitHub Pages from main, updates ~1 min after push)
+- Visitor reviews live in each visitor's localStorage only (reviews:<id>); a shared DB
+  (Supabase/Firebase free tier) + spam protection is phase 2
 - Pages: index.html (script.js), place.html?id=... (place.js); shared code in common.js
 - Languages: UI text in i18n.js (ar/en); neighborhood/tag/hours English in
   data/translations_en.json (check_places.py warns if one is missing)
