@@ -14,13 +14,14 @@
 
   <header class="site-header">
     <div class="container header-row">
-      <a class="logo" href="#">وين أروح</a>
-      <nav class="city-switch" aria-label="اختر المدينة">
+      <a class="logo" href="#" data-i18n="siteName">وين أروح</a>
+      <nav class="city-switch" aria-label="اختر المدينة" data-i18n-aria="citySwitch">
         <button type="button" data-city="riyadh">الرياض</button>
         <button type="button" data-city="qassim">القصيم</button>
         <button type="button" data-city="khobar">الخبر</button>
         <button type="button" data-city="jeddah">جدة</button>
       </nav>
+      <button type="button" class="lang-btn" id="lang-btn" data-i18n="langButton">English</button>
     </div>
   </header>
 
@@ -37,8 +38,8 @@
       <h1 id="hero-title"></h1>
       <p class="tagline" id="hero-tagline"></p>
       <form class="search" role="search" onsubmit="return false">
-        <label for="search-input" class="visually-hidden">ابحث عن مكان</label>
-        <input id="search-input" type="search" placeholder="ابحث باسم المكان أو الحي أو الميزة…" autocomplete="off">
+        <label for="search-input" class="visually-hidden" data-i18n="searchLabel">ابحث عن مكان</label>
+        <input id="search-input" type="search" placeholder="ابحث باسم المكان أو الحي أو الميزة…" data-i18n-ph="searchPlaceholder" autocomplete="off">
       </form>
     </div>
 
@@ -85,18 +86,18 @@
       <div class="section-head">
         <div>
           <h2 id="places-title"></h2>
-          <p class="section-sub">مرتبة حسب التقييم الموزون: التقييم وعدد المقيّمين معاً</p>
+          <p class="section-sub" data-i18n="placesSub">مرتبة حسب التقييم الموزون: التقييم وعدد المقيّمين معاً</p>
         </div>
-        <div class="tabs" role="group" aria-label="التصنيف">
-          <button type="button" data-cat="all" aria-pressed="true">الكل</button>
-          <button type="button" data-cat="cafe" aria-pressed="false">كوفيهات</button>
-          <button type="button" data-cat="restaurant" aria-pressed="false">مطاعم</button>
-          <button type="button" data-cat="entertainment" aria-pressed="false">ترفيه</button>
+        <div class="tabs" role="group" aria-label="التصنيف" data-i18n-aria="tabsLabel">
+          <button type="button" data-cat="all" aria-pressed="true" data-i18n="all">الكل</button>
+          <button type="button" data-cat="cafe" aria-pressed="false" data-i18n="cafes">كوفيهات</button>
+          <button type="button" data-cat="restaurant" aria-pressed="false" data-i18n="restaurants">مطاعم</button>
+          <button type="button" data-cat="entertainment" aria-pressed="false" data-i18n="fun">ترفيه</button>
         </div>
       </div>
       <label class="family-toggle">
         <input type="checkbox" id="family-only">
-        <span>مناسب للعوائل فقط</span>
+        <span data-i18n="familyOnly">مناسب للعوائل فقط</span>
       </label>
       <p class="results-count" id="results-count" aria-live="polite"></p>
       <div class="cards" id="cards"></div>
@@ -106,10 +107,10 @@
       <div class="container">
         <div class="section-head">
           <h2 id="plan-title"></h2>
-          <div class="tabs" role="group" aria-label="نوع الخطة">
-            <button type="button" data-mode="best" aria-pressed="true">الأفضل</button>
-            <button type="button" data-mode="family" aria-pressed="false">عائلي</button>
-            <button type="button" data-mode="budget" aria-pressed="false">اقتصادي</button>
+          <div class="tabs" role="group" aria-label="نوع الخطة" data-i18n-aria="planLabel">
+            <button type="button" data-mode="best" aria-pressed="true" data-i18n="best">الأفضل</button>
+            <button type="button" data-mode="family" aria-pressed="false" data-i18n="family">عائلي</button>
+            <button type="button" data-mode="budget" aria-pressed="false" data-i18n="budget">اقتصادي</button>
           </div>
         </div>
         <ol class="plan" id="plan"></ol>
@@ -119,8 +120,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>التقييمات وأعداد المقيّمين منقولة من خرائط Google، وآخر تحقق منها: <span id="checked-date"></span>.</p>
-      <p>وين أروح · مشروع شخصي من Ahmed Algaoni</p>
+      <p id="footer-source"></p>
+      <p data-i18n="footerAuthor">وين أروح · مشروع شخصي من Ahmed Algaoni</p>
     </div>
   </footer>
 
@@ -132,7 +133,7 @@
         <span class="chip cat"></span>
       </div>
       <h3 class="name"><a></a></h3>
-      <p class="name-en"></p>
+      <p class="name-alt"></p>
       <p class="rating">
         <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>
         <strong class="score"></strong>
@@ -144,12 +145,13 @@
       </p>
       <ul class="tags"></ul>
       <div class="actions">
-        <a class="btn details">التفاصيل والتقييم</a>
-        <a class="btn ghost maps" target="_blank" rel="noopener">الخريطة</a>
+        <a class="btn details"></a>
+        <a class="btn ghost maps" target="_blank" rel="noopener"></a>
       </div>
     </article>
   </template>
 
+  <script src="i18n.js"></script>
   <script src="common.js"></script>
   <script src="script.js"></script>
 </body>

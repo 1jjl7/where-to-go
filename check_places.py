@@ -186,6 +186,25 @@ def check_coverage(places):
                 warn(city, f"family day plan needs a family-friendly {category} place")
 
 
+def check_translations(places, path):
+    """Warn when the English site would fall back to Arabic text."""
+    if not path.exists():
+        warn("-", f"{path.name} not found - English version will show Arabic text")
+        return
+    en = json.loads(path.read_text(encoding="utf-8"))
+    for p in places:
+        pid = p.get("id")
+        hood = p.get("neighborhood_ar")
+        if hood and hood not in en.get("neighborhoods", {}):
+            warn(pid, f"no English for neighborhood '{hood}' in {path.name}")
+        for tag in p.get("tags_ar") or []:
+            if tag not in en.get("tags", {}):
+                warn(pid, f"no English for tag '{tag}' in {path.name}")
+        hours = p.get("hours_ar")
+        if hours and hours not in en.get("hours", {}):
+            warn(pid, f"no English for hours '{hours}' in {path.name}")
+
+
 def main():
     path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("data/places.json")
     try:
@@ -212,6 +231,7 @@ def main():
 
     check_duplicates([p for p in places if isinstance(p, dict)])
     check_coverage([p for p in places if isinstance(p, dict)])
+    check_translations([p for p in places if isinstance(p, dict)], path.parent / "translations_en.json")
 
     print(f"Checked {len(places)} place(s) in {path}\n")
     if errors:

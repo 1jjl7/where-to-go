@@ -85,6 +85,13 @@ button { font: inherit; cursor: pointer; }
   transition: background-color 0.3s, color 0.3s;
 }
 .city-switch button[aria-pressed="true"] { background: var(--primary); color: var(--on-primary); }
+
+.lang-btn {
+  min-height: 44px; padding: 0 16px; border-radius: 999px;
+  border: 1px solid var(--line); background: transparent; color: var(--ink); font-weight: 600;
+}
+.lang-btn:hover { background: var(--tint); }
+.header-actions { display: flex; align-items: center; gap: 16px; }
 .city-switch button:hover:not([aria-pressed="true"]) { background: var(--tint); }
 
 /* ===== Hero ===== */
@@ -192,7 +199,7 @@ body[data-city="khobar"] .rank { color: #C08A50; }
 .chip.cat { color: var(--cat); }
 
 .card .name { font-size: 1.45rem; }
-.name-en { margin: -8px 0 0; color: var(--muted); font-size: 0.85rem; direction: ltr; text-align: right; }
+.name-alt { margin: -8px 0 0; color: var(--muted); font-size: 0.85rem; text-align: start; }
 
 .rating { display: flex; align-items: center; gap: 6px; margin: 0; }
 .star { width: 18px; height: 18px; fill: var(--accent); }
@@ -247,6 +254,7 @@ body[data-city="khobar"] .star { fill: #C08A50; }
 
 .back-link { color: var(--ink); font-weight: 600; text-decoration: none; }
 .back-link::before { content: "→ "; }
+[dir="ltr"] .back-link::before { content: "← "; }
 
 .place-hero {
   position: relative; overflow: hidden; min-height: 340px;
@@ -256,7 +264,7 @@ body[data-city="khobar"] .star { fill: #C08A50; }
 .place-hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
 .place-hero-content { position: relative; padding: 64px 0 40px; }
 .place-hero h1 { font-size: clamp(2.2rem, 5.5vw, 4rem); }
-.place-name-en { margin: 4px 0 0; opacity: 0.85; direction: ltr; text-align: right; }
+.place-name-alt { margin: 4px 0 0; opacity: 0.85; text-align: start; }
 .breadcrumb { display: flex; gap: 8px; margin-bottom: 12px; font-size: 0.95rem; }
 .breadcrumb a { color: #FFFFFF; }
 
@@ -280,7 +288,7 @@ body[data-city="khobar"] .star { fill: #C08A50; }
   border: 1px solid var(--line); border-radius: 18px; background: var(--surface); overflow: hidden;
 }
 .facts div { padding: 14px 18px; border-bottom: 1px solid var(--line); }
-.facts div:nth-child(odd) { border-left: 1px solid var(--line); }
+.facts div:nth-child(odd) { border-inline-end: 1px solid var(--line); }
 .facts div:nth-last-child(-n+2) { border-bottom: 0; }
 .facts dt { color: var(--muted); font-size: 0.85rem; }
 .facts dd { margin: 0; font-weight: 600; }
@@ -297,13 +305,19 @@ body[data-city="khobar"] .star { fill: #C08A50; }
 }
 #review-form input { min-height: 48px; }
 .stars-input { border: 0; padding: 0; margin: 0; }
-.stars-row { display: flex; gap: 2px; } /* RTL: star 1 sits on the right */
+/* Stars sit in a visible white box; empty stars are clearly grey */
+.stars-row {
+  display: inline-flex; gap: 2px; padding: 6px 10px; margin-top: 6px;
+  background: var(--surface); border: 1.5px solid var(--line); border-radius: 14px;
+}
 .star-btn {
   width: 48px; height: 48px; border: 0; background: transparent;
-  font-size: 2rem; line-height: 1; color: var(--line);
+  font-size: 2.1rem; line-height: 1; color: #9A958C;
+  transition: color 0.15s, transform 0.15s;
 }
-.star-btn.on { color: var(--accent); }
-body[data-city="khobar"] .star-btn.on { color: #C08A50; }
+.star-btn:hover { transform: scale(1.12); }
+.star-btn.on, .star-btn.preview { color: var(--accent); }
+body[data-city="khobar"] .star-btn.on, body[data-city="khobar"] .star-btn.preview { color: #C08A50; }
 .star-label { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .form-error { margin: 0; color: #B3261E; font-weight: 600; min-height: 1.2em; }
 
@@ -336,7 +350,9 @@ body[data-city="khobar"] .star-btn.on { color: #C08A50; }
 @media (max-width: 640px) {
   /* Compact header: logo + cities on one row, and it scrolls away */
   .site-header { position: static; }
-  .header-row { min-height: 64px; gap: 8px; }
+  .header-row { min-height: 64px; gap: 8px; flex-wrap: wrap; padding: 8px 0; }
+  .site-header .city-switch { order: 3; width: 100%; }
+  .lang-btn { min-height: 40px; padding: 0 12px; font-size: 0.9rem; }
   .logo { font-size: 1.25rem; white-space: nowrap; }
   .city-switch { padding: 3px; }
   .city-switch button { min-height: 40px; padding: 0 10px; font-size: 0.9rem; }
