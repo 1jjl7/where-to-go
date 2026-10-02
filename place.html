@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تفاصيل المكان | وين أروح</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=El+Messiri:wght@600;700&family=Reem+Kufi:wght@600;700&family=Rubik:wght@600;700&family=Amiri:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-city="riyadh">
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="index.html">وين أروح</a>
+      <a class="back-link" id="back-link" href="index.html">رجوع للقائمة</a>
+    </div>
+  </header>
+
+  <section class="place-hero">
+    <img class="place-hero-img" id="hero-img" src="" alt="">
+    <div class="hero-overlay"></div>
+    <div class="container place-hero-content">
+      <nav class="breadcrumb" aria-label="مسار الصفحة">
+        <a id="crumb-city" href="index.html"></a>
+        <span aria-hidden="true">/</span>
+        <span id="crumb-cat"></span>
+      </nav>
+      <h1 id="place-name"></h1>
+      <p class="place-name-en" id="place-name-en"></p>
+    </div>
+  </section>
+
+  <main class="container place-main" id="place-main">
+    <div class="place-grid">
+
+      <div class="place-info">
+        <div class="score-boxes">
+          <div class="score-box google">
+            <span class="label">تقييم خرائط Google</span>
+            <strong class="big" id="google-rating"></strong>
+            <span class="small" id="google-count"></span>
+          </div>
+          <div class="score-box visitors">
+            <span class="label">تقييم زوار وين أروح</span>
+            <strong class="big" id="visitor-rating"></strong>
+            <span class="small" id="visitor-count"></span>
+          </div>
+        </div>
+
+        <dl class="facts">
+          <div><dt>الحي</dt><dd id="fact-hood"></dd></div>
+          <div><dt>السعر</dt><dd id="fact-price"></dd></div>
+          <div><dt>مناسب للعوائل</dt><dd id="fact-family"></dd></div>
+          <div><dt>أوقات العمل</dt><dd id="fact-hours"></dd></div>
+        </dl>
+
+        <ul class="tags big-tags" id="place-tags"></ul>
+
+        <a class="btn" id="maps-link" target="_blank" rel="noopener">افتح في خرائط Google</a>
+        <p class="source-note" id="source-note"></p>
+      </div>
+
+      <section class="review-form-wrap" aria-labelledby="form-title">
+        <h2 id="form-title">زرت المكان؟ قيّمه</h2>
+        <form id="review-form" novalidate>
+          <fieldset class="stars-input">
+            <legend>تقييمك</legend>
+            <div class="stars-row" id="stars-row"></div>
+            <p class="star-label" id="star-label" aria-live="polite">اختر من ١ إلى ٥ نجوم</p>
+          </fieldset>
+          <label for="review-name">اسمك (اختياري)</label>
+          <input id="review-name" type="text" maxlength="40" placeholder="مثلاً: زائر من الرياض">
+          <label for="review-text">تعليقك</label>
+          <textarea id="review-text" rows="4" maxlength="500" placeholder="وش عجبك؟ وش ما عجبك؟"></textarea>
+          <p class="form-error" id="form-error" role="alert"></p>
+          <button class="btn" type="submit">أرسل التقييم</button>
+          <p class="source-note">ملاحظة: التقييمات حالياً تنحفظ في جهازك فقط (نسخة تجريبية)، وبنربطها بقاعدة بيانات لاحقاً.</p>
+        </form>
+      </section>
+    </div>
+
+    <section class="reviews-wrap" aria-labelledby="reviews-title">
+      <h2 id="reviews-title">آراء الزوار</h2>
+      <ul class="reviews-list" id="reviews-list"></ul>
+    </section>
+
+    <section class="similar-wrap" aria-labelledby="similar-title">
+      <h2 id="similar-title"></h2>
+      <div class="similar" id="similar"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>وين أروح · مشروع شخصي من Ahmed Algaoni</p>
+    </div>
+  </footer>
+
+  <script src="common.js"></script>
+  <script src="place.js"></script>
+</body>
+</html>

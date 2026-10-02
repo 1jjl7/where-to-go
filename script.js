@@ -1,44 +1,11 @@
-// وين أروح - home page logic
+// وين أروح - home page logic (shared helpers live in common.js)
 // Loads data/places.json, ranks places, and renders cards + a day plan
 // for the selected city. Colours/fonts come from CSS (body[data-city]).
-
-const CITIES = {
-  riyadh: { name: "الرياض", kicker: "العاصمة", tagline: "من الدرعية والبجيري إلى مقاهي الأحياء الجديدة." },
-  qassim: { name: "القصيم", kicker: "أرض النخيل والتمور", tagline: "قهوة وتمر وأماكن تستاهل الزيارة في بريدة وعنيزة." },
-  khobar: { name: "الخبر", kicker: "على ساحل الخليج", tagline: "الكورنيش والبحر، ومطاعم ومقاهي بإطلالة." },
-  jeddah: { name: "جدة", kicker: "عروس البحر الأحمر", tagline: "من رواشين البلد إلى الواجهة البحرية." },
-};
-
-const CATEGORY_LABELS = { cafe: "كوفي", restaurant: "مطعم", entertainment: "ترفيه" };
-const PRICE_LABELS = ["", "رخيص", "متوسط", "غالي", "غالي جداً"];
-
-// Weighted rating: a 4.9 from 20 reviews should not beat a 4.7 from 5,000.
-// MIN_VOTES is how many reviews a place needs before we trust its own rating.
-const MIN_VOTES = 500;
-
-const numberFmt = new Intl.NumberFormat("ar-SA");
-const ratingFmt = new Intl.NumberFormat("ar-SA", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
-const rankFmt = new Intl.NumberFormat("ar-SA", { minimumIntegerDigits: 2 });
 
 const state = { city: "riyadh", cat: "all", familyOnly: false, query: "", planMode: "best" };
 let places = [];
 
 // ---------- data helpers ----------
-
-function addWeightedScores(list) {
-  // C = average rating of the same city + category
-  const groups = {};
-  for (const p of list) {
-    const key = `${p.city}|${p.category}`;
-    (groups[key] ||= []).push(p.google_rating);
-  }
-  for (const p of list) {
-    const ratings = groups[`${p.city}|${p.category}`];
-    const C = ratings.reduce((a, b) => a + b, 0) / ratings.length;
-    const v = p.google_reviews_count;
-    p.score = (v / (v + MIN_VOTES)) * p.google_rating + (MIN_VOTES / (v + MIN_VOTES)) * C;
-  }
-}
 
 // Make Arabic search forgiving: أ/إ/آ -> ا, ة -> ه, ى -> ي, no diacritics
 function normalize(text) {
@@ -81,20 +48,6 @@ function renderHero() {
   });
 }
 
-function priceElement(level) {
-  const span = document.createElement("span");
-  span.className = "price";
-  span.setAttribute("aria-label", `السعر: ${PRICE_LABELS[level]}`);
-  for (let i = 1; i <= 4; i++) {
-    const dot = document.createElement("span");
-    dot.textContent = "●";
-    if (i > level) dot.className = "off";
-    dot.setAttribute("aria-hidden", "true");
-    span.append(dot);
-  }
-  return span;
-}
-
 function renderCards() {
   const list = visiblePlaces();
   const container = document.getElementById("cards");
@@ -116,7 +69,9 @@ function renderCards() {
     card.querySelector(".card").style.animationDelay = `${Math.min(i, 10) * 40}ms`;
     card.querySelector(".rank").textContent = rankFmt.format(i + 1);
     card.querySelector(".cat").textContent = CATEGORY_LABELS[p.category];
-    card.querySelector(".name").textContent = p.name_ar;
+    const nameLink = card.querySelector(".name a");
+    nameLink.textContent = p.name_ar;
+    nameLink.href = `place.html?id=${encodeURIComponent(p.id)}`;
     card.querySelector(".name-en").textContent = p.name_en;
     card.querySelector(".score").textContent = ratingFmt.format(p.google_rating);
     card.querySelector(".reviews").textContent = `(${numberFmt.format(p.google_reviews_count)} تقييم)`;
@@ -134,6 +89,10 @@ function renderCards() {
     const link = card.querySelector(".maps");
     link.href = p.maps_url;
     link.setAttribute("aria-label", `افتح ${p.name_ar} في خرائط Google`);
+
+    const details = card.querySelector(".details");
+    details.href = nameLink.href;
+    details.setAttribute("aria-label", `تفاصيل ${p.name_ar} وتقييمه`);
     container.append(card);
   });
 }
@@ -256,19 +215,15 @@ async function init() {
   bindEvents();
   state.city = startingCity();
   try {
-    const response = await fetch("data/places.json");
-    const data = await response.json();
-    places = data.places;
+    places = await loadPlaces();
   } catch (err) {
     document.getElementById("cards").textContent = "تعذّر تحميل البيانات. شغّل الموقع من خادم محلي (python -m http.server).";
     console.error(err);
     return;
   }
-  addWeightedScores(places);
 
   const latest = places.map((p) => p.rating_checked_on).sort().at(-1);
-  document.getElementById("checked-date").textContent =
-    new Date(latest).toLocaleDateString("ar-SA-u-ca-gregory", { year: "numeric", month: "long", day: "numeric" });
+  document.getElementById("checked-date").textContent = formatDate(latest);
 
   renderAll();
 }
