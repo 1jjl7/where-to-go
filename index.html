@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>وين أروح | دليل الكوفيهات والمطاعم والترفيه</title>
+  <meta name="description" content="أفضل الكوفيهات والمطاعم والأماكن الترفيهية في الرياض والقصيم والخبر وجدة، حسب تقييمات خرائط Google.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=El+Messiri:wght@600;700&family=Reem+Kufi:wght@600;700&family=Rubik:wght@600;700&family=Amiri:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-city="riyadh">
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="logo" href="#">وين أروح</a>
+      <nav class="city-switch" aria-label="اختر المدينة">
+        <button type="button" data-city="riyadh">الرياض</button>
+        <button type="button" data-city="qassim">القصيم</button>
+        <button type="button" data-city="khobar">الخبر</button>
+        <button type="button" data-city="jeddah">جدة</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <!-- One photo per city; CSS fades in the active one -->
+    <img class="hero-img" data-city="riyadh" src="assets/img/riyadh.jpg" alt="">
+    <img class="hero-img" data-city="qassim" src="assets/img/qassim.jpg" alt="">
+    <img class="hero-img" data-city="khobar" src="assets/img/khobar.jpg" alt="">
+    <img class="hero-img" data-city="jeddah" src="assets/img/jeddah.jpg" alt="">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <p class="kicker" id="hero-kicker"></p>
+      <h1 id="hero-title"></h1>
+      <p class="tagline" id="hero-tagline"></p>
+      <form class="search" role="search" onsubmit="return false">
+        <label for="search-input" class="visually-hidden">ابحث عن مكان</label>
+        <input id="search-input" type="search" placeholder="ابحث باسم المكان أو الحي أو الميزة…" autocomplete="off">
+      </form>
+    </div>
+
+    <!-- City skylines (drawn in code, coloured by CSS variables) -->
+    <div class="skylines" aria-hidden="true">
+      <svg class="skyline" data-city="riyadh" viewBox="0 0 1200 160" preserveAspectRatio="xMidYMax slice">
+        <defs><pattern id="cr-r" width="12" height="8" patternUnits="userSpaceOnUse"><path class="sk-fill" d="M0 8L6 0L12 8Z"/></pattern></defs>
+        <path class="sk-fill" d="M0 160V112H60L66 46H94L100 112V96H220V78H360L368 30H402L410 100H520V70H560V58H600V70H640L646 38H684L690 92H820V74H960L966 50H994L1000 104H1200V160Z"/>
+        <g fill="url(#cr-r)"><rect x="0" y="104" width="60" height="8"/><rect x="66" y="38" width="28" height="8"/><rect x="100" y="88" width="120" height="8"/><rect x="220" y="70" width="140" height="8"/><rect x="368" y="22" width="34" height="8"/><rect x="410" y="92" width="110" height="8"/><rect x="520" y="62" width="40" height="8"/><rect x="560" y="50" width="40" height="8"/><rect x="600" y="62" width="40" height="8"/><rect x="646" y="30" width="38" height="8"/><rect x="690" y="84" width="130" height="8"/><rect x="820" y="66" width="140" height="8"/><rect x="966" y="42" width="28" height="8"/><rect x="1000" y="96" width="200" height="8"/></g>
+        <path class="sk-win" d="M76 70l4-7 4 7z M380 50l5-8 5 8z M380 80h10v14h-10z M660 60l4-7 4 7z M270 100l5-8 5 8z M300 100l5-8 5 8z M870 98l5-8 5 8z M900 98l5-8 5 8z M580 84h8v16h-8z M976 75l4-7 4 7z"/>
+      </svg>
+      <svg class="skyline" data-city="qassim" viewBox="0 0 1200 160" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <pattern id="cr-q" width="12" height="8" patternUnits="userSpaceOnUse"><path class="sk-fill" d="M0 8L6 0L12 8Z"/></pattern>
+          <g id="palm-q" class="sk-fill"><path d="M-3 0L3 0L5 90L-5 90Z"/><path d="M0 0Q-26-12-48 6Q-24-4 0 4Z M0 0Q26-12 48 6Q24-4 0 4Z M0 0Q-14-26-38-30Q-14-18 0 3Z M0 0Q14-26 38-30Q14-18 0 3Z M0 0Q-2-24 4-36Q4-18 2 2Z"/></g>
+        </defs>
+        <use href="#palm-q" x="90" y="34"/><use href="#palm-q" x="330" y="26"/><use href="#palm-q" x="620" y="16"/><use href="#palm-q" x="930" y="28"/><use href="#palm-q" x="1130" y="22"/>
+        <path class="sk-fill" d="M0 160V118H140V104H260V120H420V100H560V116H700V96H840V118H1000V106H1200V160Z"/>
+        <g fill="url(#cr-q)"><rect x="0" y="110" width="140" height="8"/><rect x="140" y="96" width="120" height="8"/><rect x="260" y="112" width="160" height="8"/><rect x="420" y="92" width="140" height="8"/><rect x="560" y="108" width="140" height="8"/><rect x="700" y="88" width="140" height="8"/><rect x="840" y="110" width="160" height="8"/><rect x="1000" y="98" width="200" height="8"/></g>
+        <path class="sk-win" d="M190 130h8v12h-8z M480 122l5-8 5 8z M500 122l5-8 5 8z M760 118l5-8 5 8z M780 118l5-8 5 8z M1080 128h8v12h-8z"/>
+      </svg>
+      <svg class="skyline" data-city="khobar" viewBox="0 0 1200 160" preserveAspectRatio="xMidYMax slice">
+        <defs><g id="palm-k" class="sk-fill"><path d="M-3 0L3 0L5 90L-5 90Z"/><path d="M0 0Q-26-12-48 6Q-24-4 0 4Z M0 0Q26-12 48 6Q24-4 0 4Z M0 0Q-14-26-38-30Q-14-18 0 3Z M0 0Q14-26 38-30Q14-18 0 3Z M0 0Q-2-24 4-36Q4-18 2 2Z"/></g></defs>
+        <use href="#palm-k" x="380" y="44"/><use href="#palm-k" x="470" y="52"/><use href="#palm-k" x="720" y="48"/>
+        <g class="sk-fill">
+          <path d="M0 160V122H70V100H120V116H190V86H240V108H300V124H760V104H820V82H870V110H940V92H990V118H1080V100H1130V120H1200V160Z"/>
+          <path d="M592 130V50H608V130Z M598 4H602V22H598Z"/>
+          <ellipse cx="600" cy="44" rx="46" ry="16"/>
+          <circle cx="600" cy="22" r="8"/>
+        </g>
+        <path class="sk-win" d="M200 96h8v8h-8z M220 96h8v8h-8z M200 112h8v8h-8z M220 112h8v8h-8z M830 92h8v8h-8z M850 92h8v8h-8z M830 108h8v8h-8z M850 108h8v8h-8z M950 102h8v8h-8z M970 102h8v8h-8z"/>
+      </svg>
+      <svg class="skyline" data-city="jeddah" viewBox="0 0 1200 160" preserveAspectRatio="xMidYMax slice">
+        <defs><pattern id="lat-j" width="8" height="8" patternUnits="userSpaceOnUse"><rect class="sk-fill" x="0" y="0" width="2" height="8"/></pattern></defs>
+        <path class="sk-fill" d="M0 160V80H60V50H130V70H180V36H250V60H300V92H360V44H430V74H480V100H520V60H528L534 28L540 60H548V100H600V40H670V66H720V30H790V84H850V52H920V76H980V40H1050V70H1110V58H1200V160Z M516 72H552V76H516Z"/>
+        <path class="sk-win" d="M80 66h30v34h-30z M195 50h40v44h-40z M375 58h40v42h-40z M615 54h40v36h-40z M735 44h40v48h-40z M865 66h40v32h-40z M995 54h40v42h-40z M1125 72h30v28h-30z"/>
+        <path fill="url(#lat-j)" d="M80 66h30v34h-30z M195 50h40v44h-40z M375 58h40v42h-40z M615 54h40v36h-40z M735 44h40v48h-40z M865 66h40v32h-40z M995 54h40v42h-40z M1125 72h30v28h-30z"/>
+      </svg>
+    </div>
+  </section>
+
+  <main>
+    <section class="container places" aria-labelledby="places-title">
+      <div class="section-head">
+        <div>
+          <h2 id="places-title"></h2>
+          <p class="section-sub">مرتبة حسب التقييم الموزون: التقييم وعدد المقيّمين معاً</p>
+        </div>
+        <div class="tabs" role="group" aria-label="التصنيف">
+          <button type="button" data-cat="all" aria-pressed="true">الكل</button>
+          <button type="button" data-cat="cafe" aria-pressed="false">كوفيهات</button>
+          <button type="button" data-cat="restaurant" aria-pressed="false">مطاعم</button>
+          <button type="button" data-cat="entertainment" aria-pressed="false">ترفيه</button>
+        </div>
+      </div>
+      <label class="family-toggle">
+        <input type="checkbox" id="family-only">
+        <span>مناسب للعوائل فقط</span>
+      </label>
+      <p class="results-count" id="results-count" aria-live="polite"></p>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section class="plan-wrap" aria-labelledby="plan-title">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="plan-title"></h2>
+          <div class="tabs" role="group" aria-label="نوع الخطة">
+            <button type="button" data-mode="best" aria-pressed="true">الأفضل</button>
+            <button type="button" data-mode="family" aria-pressed="false">عائلي</button>
+            <button type="button" data-mode="budget" aria-pressed="false">اقتصادي</button>
+          </div>
+        </div>
+        <ol class="plan" id="plan"></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>التقييمات وأعداد المقيّمين منقولة من خرائط Google، وآخر تحقق منها: <span id="checked-date"></span>.</p>
+      <p>وين أروح · مشروع شخصي من Ahmed Algaoni</p>
+    </div>
+  </footer>
+
+  <!-- Card template: filled by script.js with textContent (never innerHTML) -->
+  <template id="card-template">
+    <article class="card">
+      <div class="card-top">
+        <span class="rank"></span>
+        <span class="chip cat"></span>
+      </div>
+      <h3 class="name"></h3>
+      <p class="name-en"></p>
+      <p class="rating">
+        <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>
+        <strong class="score"></strong>
+        <span class="reviews"></span>
+      </p>
+      <p class="meta">
+        <span class="hood"></span>
+        <span class="price"></span>
+      </p>
+      <ul class="tags"></ul>
+      <a class="btn maps" target="_blank" rel="noopener">افتح في خرائط Google</a>
+    </article>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
