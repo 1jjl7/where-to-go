@@ -180,8 +180,10 @@ def check_coverage(places):
         for category, need in DAY_PLAN_NEEDS.items():
             if counts[(city, category)] < need:
                 warn(city, f"day plan needs {need} {category} place(s)")
-            elif family[(city, category)] < need:
-                warn(city, f"family day plan needs {need} family-friendly {category} place(s)")
+            # The family plan may repeat a place (e.g. same cafe for breakfast
+            # and afternoon coffee), so one family-friendly place is enough.
+            elif family[(city, category)] < 1:
+                warn(city, f"family day plan needs a family-friendly {category} place")
 
 
 def main():

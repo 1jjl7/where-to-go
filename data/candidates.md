@@ -56,7 +56,7 @@ Sources: [Accor guide](https://all.accor.com/a/en/limitless/thematics/travel-tip
 Sources: [Destination KSA](https://destinationksa.com/ar/%D8%AF%D9%84%D9%8A%D9%84%D9%83-%D9%84%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9-%D8%A3%D9%81%D8%B6%D9%84-%D9%83%D8%A7%D9%81%D9%8A%D9%87%D8%A7%D8%AA-%D8%A8%D8%B1%D9%8A%D8%AF%D8%A9-%D8%AD%D9%8A%D8%AB-%D8%A7%D9%84/), [besteaterys](https://besteaterys.com/%D8%A7%D9%81%D8%B6%D9%84-%D9%83%D8%A7%D9%81%D9%8A%D9%87%D8%A7%D8%AA-%D8%A8%D8%B1%D9%8A%D8%AF%D8%A9/)
 
 ### Restaurants (restaurant)
-- [ ] Fenor - فينور (Lebanese)
+- [x] Fenor - فينور (Lebanese)
 - [ ] Bilsan - بيلسان (Lebanese)
 - [ ] Al Sham Shamak - الشام شامك (grills)
 - [ ] Al Tahi - الطاهي (Arabic)
@@ -66,13 +66,15 @@ Sources: [Destination KSA](https://destinationksa.com/ar/%D8%AF%D9%84%D9%8A%D9%8
 Sources: [Bayut blog](https://www.bayut.sa/blog/%D8%A7%D9%83%D8%AA%D8%B4%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9/%D9%85%D8%B7%D8%A7%D8%B9%D9%85-%D8%A8%D8%B1%D9%8A%D8%AF%D8%A9/), [Tripadvisor Buraidah](https://www.tripadvisor.com/Restaurants-g652389-Buraidah_Al_Qasim_Province.html)
 
 ### Entertainment (entertainment)
-- [ ] Buraydah Dates City - مدينة التمور (dates market / festival)
+- [x] Buraydah Dates City - مدينة التمور (dates market / festival)
 - [ ] Buraydah Water Tower - برج مياه بريدة
 - [ ] King Khalid Park - حديقة الملك خالد
 - [ ] King Khalid Cultural Center - مركز الملك خالد الحضاري
 - [ ] Al Bassam Heritage House - بيت البسام التراثي (Unaizah)
 - [ ] Al Masokaf Market - سوق المسوكف (Unaizah)
 - [ ] Al Awshaziyah Lake - بحيرة العوشزية (Unaizah)
+- [x] Nakhla - نخلا (added by Ahmed, country park, Rawaq Al Gharbi)
+- [x] Layali Raheeb - ليالي رحيب (added by Ahmed, restaurant inside Nakhla)
 
 Sources: [Qassim Emirate tourism portal](https://www.alqassim.gov.sa/QassimTourism), [Al-Rahhala](https://al-rahhala.com/%D9%85%D9%88%D9%82%D8%B9-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A8%D8%B1%D9%8A%D8%AF%D8%A9/)
 

@@ -13,7 +13,10 @@
       "rating_checked_on": "2026-10-01",
       "price_level": 2,
       "family_friendly": true,
-      "tags_ar": ["جلسات خارجية", "قهوة مختصة"],
+      "tags_ar": [
+        "جلسات خارجية",
+        "قهوة مختصة"
+      ],
       "hours_ar": "٥ص – ٣ص",
       "best_time_ar": "",
       "maps_url": "https://maps.app.goo.gl/bYffEyfhsukvDQ4c8",
@@ -31,10 +34,1188 @@
       "rating_checked_on": "2026-10-01",
       "price_level": 2,
       "family_friendly": false,
-      "tags_ar": ["محمصة"],
+      "tags_ar": [
+        "محمصة"
+      ],
       "hours_ar": "",
       "best_time_ar": "",
       "maps_url": "https://maps.app.goo.gl/Mh2d1yp9ZNtuk9n7A",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-restaurant-01",
+      "city": "qassim",
+      "category": "restaurant",
+      "name_ar": "فينور",
+      "name_en": "Fenor",
+      "neighborhood_ar": "الريان",
+      "google_rating": 4.5,
+      "google_reviews_count": 13567,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "لبناني"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://maps.app.goo.gl/aMME9YgDxw9tjUak8",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-restaurant-02",
+      "city": "qassim",
+      "category": "restaurant",
+      "name_ar": "ليالي رحيب | نخلا",
+      "name_en": "Layali Raheeb",
+      "neighborhood_ar": "خب العوشر",
+      "google_rating": 3.7,
+      "google_reviews_count": 38,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "داخل مزرعة نخلا",
+        "جلسات خارجية"
+      ],
+      "hours_ar": "٣م – ١ص",
+      "best_time_ar": "",
+      "maps_url": "https://maps.app.goo.gl/LuwdrnS2YboieKzKA",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-entertainment-01",
+      "city": "qassim",
+      "category": "entertainment",
+      "name_ar": "مدينة التمور ببريدة",
+      "name_en": "Buraydah Dates City",
+      "neighborhood_ar": "الصباخ",
+      "google_rating": 4.4,
+      "google_reviews_count": 5888,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 4,
+      "family_friendly": false,
+      "tags_ar": [
+        "سوق التمور"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://maps.app.goo.gl/nmFHvMYtVgmxvDCw9",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-entertainment-02",
+      "city": "qassim",
+      "category": "entertainment",
+      "name_ar": "نخلا",
+      "name_en": "Nakhla",
+      "neighborhood_ar": "رواق الغربي",
+      "google_rating": 4.6,
+      "google_reviews_count": 3900,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "منتزه ريفي"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://maps.app.goo.gl/CgRXQdzjZhFmHmyo8",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-cafe-01",
+      "city": "riyadh",
+      "category": "cafe",
+      "name_ar": "عنبر قهوة ومحمصة مختصة",
+      "name_en": "Amber Speciality Coffee",
+      "neighborhood_ar": "الريان",
+      "google_rating": 4.4,
+      "google_reviews_count": 1419,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة",
+        "محمصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%B9%D9%86%D8%A8%D8%B1+%D9%82%D9%87%D9%88%D8%A9+%D9%88%D9%85%D8%AD%D9%85%D8%B5%D8%A9+%D9%85%D8%AE%D8%AA%D8%B5%D8%A9%E2%80%AD/@24.7036915,46.7768408,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f07725742b605:0x8836e0aca4b85d09!8m2!3d24.7036915!4d46.7768408!16s%2Fg%2F11mw7rsc_j",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-cafe-02",
+      "city": "riyadh",
+      "category": "cafe",
+      "name_ar": "خطوة جمل",
+      "name_en": "Camel Step",
+      "neighborhood_ar": "طريق أبي بكر الصديق",
+      "google_rating": 4.3,
+      "google_reviews_count": 8224,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Camel+Step/data=!4m7!3m6!1s0x3e2efd1bc666ad5f:0x69645b4c8631a3d0!8m2!3d24.7693654!4d46.6910542!16s%2Fg%2F11b6ctw4h_!19sChIJX61mxhv9Lj4R0KMxhkxbZGk",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-cafe-03",
+      "city": "riyadh",
+      "category": "cafe",
+      "name_ar": "هاف مليون",
+      "name_en": "Half Million",
+      "neighborhood_ar": "طريق الأمير محمد بن عبدالعزيز",
+      "google_rating": 4.2,
+      "google_reviews_count": 11695,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "مفتوح ٢٤ ساعة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%87%D8%A7%D9%81+%D9%85%D9%84%D9%8A%D9%88%D9%86%E2%80%AD/data=!4m7!3m6!1s0x3e2ee3fb10a10a41:0x903a34abf6003400!8m2!3d24.6917737!4d46.6736703!16s%2Fg%2F11n08dgs2h!19sChIJQQqhEPvjLj4RADQA9qs0OpA",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-cafe-04",
+      "city": "riyadh",
+      "category": "cafe",
+      "name_ar": "78 سبيشلتي كوفي",
+      "name_en": "78 Specialty Coffee",
+      "neighborhood_ar": "الريان",
+      "google_rating": 4.2,
+      "google_reviews_count": 376,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/78+Specialty+Coffee/@24.7073765,46.7709811,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f0167d7abda79:0x73d51f64c16cc56!8m2!3d24.7073765!4d46.7709811!16s%2Fg%2F11ywdb9qd_",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-cafe-05",
+      "city": "riyadh",
+      "category": "cafe",
+      "name_ar": "إكسير البن",
+      "name_en": "Elixir Bunn Coffee Roasters",
+      "neighborhood_ar": "النخيل",
+      "google_rating": 4.1,
+      "google_reviews_count": 4989,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "محمصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Elixir+Bunn+Coffee+Roasters/data=!4m7!3m6!1s0x3e2ee2131661e9b9:0x9aedfdb188c6f6fa!8m2!3d24.7342147!4d46.6112765!16s%2Fg%2F11b7q7j_tn!19sChIJuelhFhPiLj4R-vbGiLH97Zo",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-restaurant-01",
+      "city": "riyadh",
+      "category": "restaurant",
+      "name_ar": "عسيب",
+      "name_en": "Aseeb",
+      "neighborhood_ar": "الياسمين",
+      "google_rating": 4.5,
+      "google_reviews_count": 18606,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "أكل سعودي"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%B9%D8%B3%D9%8A%D8%A8%E2%80%AD/@24.8125975,46.6270043,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2ee53609d3963d:0xd8fbad275a9bf80f!8m2!3d24.8125975!4d46.6270043!16s%2Fg%2F11s4z042x8",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-restaurant-02",
+      "city": "riyadh",
+      "category": "restaurant",
+      "name_ar": "تكية",
+      "name_en": "Takya",
+      "neighborhood_ar": "البجيري",
+      "google_rating": 4.4,
+      "google_reviews_count": 4382,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "أكل سعودي",
+        "الدرعية"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%AA%D9%83%D9%8A%D8%A9%E2%80%AD/@24.736991,46.5750159,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f03178979efa5:0x9b802b3722ecd617!8m2!3d24.736991!4d46.5750159!16s%2Fg%2F11h27z25bq",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-restaurant-03",
+      "city": "riyadh",
+      "category": "restaurant",
+      "name_ar": "مطعم طوفرية",
+      "name_en": "Tofareya",
+      "neighborhood_ar": "الملقا",
+      "google_rating": 4.4,
+      "google_reviews_count": 7955,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "كبسة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%B7%D9%88%D9%81%D8%B1%D9%8A%D8%A9%E2%80%AD/@24.7959924,46.5878162,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2ee5069d34060f:0xd6264860c27175be!8m2!3d24.7959924!4d46.5878162!16s%2Fg%2F11p5_88xmh",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-restaurant-04",
+      "city": "riyadh",
+      "category": "restaurant",
+      "name_ar": "ماربل",
+      "name_en": "Marble",
+      "neighborhood_ar": "أم الحمام الشرقي",
+      "google_rating": 4.3,
+      "google_reviews_count": 6079,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "ستيك"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%A7%D8%B1%D8%A8%D9%84%E2%80%AD/@24.6757573,46.6680725,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f1da68de42373:0x6342315f18f8d26d!8m2!3d24.6757573!4d46.6680725!16s%2Fg%2F11j0jq2k8z",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-restaurant-05",
+      "city": "riyadh",
+      "category": "restaurant",
+      "name_ar": "القرية النجدية",
+      "name_en": "Najd Village",
+      "neighborhood_ar": "طريق أبي بكر الصديق",
+      "google_rating": 4.0,
+      "google_reviews_count": 13876,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "أكل نجدي"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A7%D9%84%D9%82%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D9%86%D8%AC%D8%AF%D9%8A%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x3e2f02892ddbc92d:0x76343be8e5e186ad!8m2!3d24.7426129!4d46.7046987!16s%2Fg%2F11g_s2lsp!19sChIJLcnbLYkCLz4RrYbh5eg7NHY",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-entertainment-01",
+      "city": "riyadh",
+      "category": "entertainment",
+      "name_ar": "حي الطّريف التاريخي",
+      "name_en": "At-Turaif District",
+      "neighborhood_ar": "الدرعية",
+      "google_rating": 4.7,
+      "google_reviews_count": 3734,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "تراث",
+        "اليونسكو"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%AD%D9%8A+%D8%A7%D9%84%D8%B7%D9%91%D8%B1%D9%8A%D9%81+%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%E2%80%AD/data=!4m7!3m6!1s0x3e2ee134f6f3dda3:0x99bf283c86dadb99!8m2!3d24.7336146!4d46.5746471!16s%2Fg%2F11clgbwlqz!19sChIJo93z9jThLj4Rmdvahjwov5k",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-entertainment-02",
+      "city": "riyadh",
+      "category": "entertainment",
+      "name_ar": "مطل البجيري",
+      "name_en": "Bujairi Terrace",
+      "neighborhood_ar": "الدرعية",
+      "google_rating": 4.7,
+      "google_reviews_count": 15464,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "مطاعم ومقاهي",
+        "إطلالة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D9%84+%D8%A7%D9%84%D8%A8%D8%AC%D9%8A%D8%B1%D9%8A%E2%80%AD/@24.7373233,46.5747979,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2ee182ff40797d:0xe8630b61641c7ca8!8m2!3d24.7373233!4d46.5747979!16s%2Fg%2F11s4y4pnnt",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-entertainment-03",
+      "city": "riyadh",
+      "category": "entertainment",
+      "name_ar": "بوليڤارد سيتي",
+      "name_en": "Boulevard City",
+      "neighborhood_ar": "حطين",
+      "google_rating": 4.6,
+      "google_reviews_count": 72396,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "فعاليات",
+        "موسم الرياض"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A8%D9%88%D9%84%D9%8A%DA%A4%D8%A7%D8%B1%D8%AF+%D8%B3%D9%8A%D8%AA%D9%8A%E2%80%AD/data=!4m7!3m6!1s0x3e2ee3f5fcb7225b:0xb278db99bcc2a87e!8m2!3d24.769368!4d46.6045514!16s%2Fg%2F11hdt4j0sv!19sChIJWyK3_PXjLj4RfqjCvJnbeLI",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-entertainment-04",
+      "city": "riyadh",
+      "category": "entertainment",
+      "name_ar": "المتحف الوطني السعودي",
+      "name_en": "National Museum of Saudi Arabia",
+      "neighborhood_ar": "المربع",
+      "google_rating": 4.6,
+      "google_reviews_count": 19986,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "متحف",
+        "تاريخ"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D9%81+%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A+%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%E2%80%AD/@24.6480983,46.7109536,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f0455e175c5e1:0xfa7d1c7f096df805!8m2!3d24.6480983!4d46.7109536!16s%2Fm%2F05mzfj8",
+      "description_ar": ""
+    },
+    {
+      "id": "riyadh-entertainment-05",
+      "city": "riyadh",
+      "category": "entertainment",
+      "name_ar": "جسر برج المملكة",
+      "name_en": "Kingdom Centre Sky Bridge",
+      "neighborhood_ar": "العليا",
+      "google_rating": 4.3,
+      "google_reviews_count": 1375,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "إطلالة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Kingdom+Center+Sky+Bridge/@24.711293,46.6744619,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2ee72cb63c9975:0xd2972fb1611f2b05!8m2!3d24.711293!4d46.6744619!16s%2Fg%2F11pvgd4cz_",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-cafe-03",
+      "city": "qassim",
+      "category": "cafe",
+      "name_ar": "نورد كافية",
+      "name_en": "Nord Cafe",
+      "neighborhood_ar": "الريان",
+      "google_rating": 4.5,
+      "google_reviews_count": 1005,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%86%D9%88%D8%B1%D8%AF+%D9%83%D8%A7%D9%81%D9%8A%D8%A9%E2%80%AD/@26.3965804,43.9239208,17z/data=!3m1!4b1!4m6!3m5!1s0x157f5714b7e7efbd:0xc8d6ba2494220d93!8m2!3d26.3965804!4d43.9239208!16s%2Fg%2F11gd1wq_xy",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-cafe-04",
+      "city": "qassim",
+      "category": "cafe",
+      "name_ar": "اوريكس كافية",
+      "name_en": "Oryx Coffee",
+      "neighborhood_ar": "النهضة",
+      "google_rating": 4.2,
+      "google_reviews_count": 746,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A7%D9%88%D8%B1%D9%8A%D9%83%D8%B3+%D9%83%D8%A7%D9%81%D9%8A%D8%A9+Oryx+Coffee%E2%80%AD/@26.414774,43.9363211,17z/data=!3m1!4b1!4m6!3m5!1s0x157f515c85ee01c1:0x8b2a380bd91bb4dc!8m2!3d26.414774!4d43.9363211!16s%2Fg%2F11ksq2nzcm",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-cafe-05",
+      "city": "qassim",
+      "category": "cafe",
+      "name_ar": "سمراء كافيه",
+      "name_en": "Samraa Cafe",
+      "neighborhood_ar": "النهضة",
+      "google_rating": 4.0,
+      "google_reviews_count": 4212,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "ديكور فاخر"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%B3%D9%85%D8%B1%D8%A7%D8%A1+%D9%83%D8%A7%D9%81%D9%8A%D9%87%E2%80%AD/@26.4038853,43.9355697,17z/data=!3m1!4b1!4m6!3m5!1s0x157f575b97c7ef11:0x9a806cc63dc5ecec!8m2!3d26.4038853!4d43.9355697!16s%2Fg%2F11f_d_5h5j",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-restaurant-03",
+      "city": "qassim",
+      "category": "restaurant",
+      "name_ar": "لوفت",
+      "name_en": "LOFT",
+      "neighborhood_ar": "شارع الإمام البخاري",
+      "google_rating": 4.7,
+      "google_reviews_count": 19943,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "بوليفارد سنتر"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%84%D9%88%D9%81%D8%AA+LOFT%E2%80%AD/data=!4m7!3m6!1s0x157f579de4178a0d:0x38426e7b3d3639c8!8m2!3d26.3933278!4d43.9206228!16s%2Fg%2F11fsmpz494!19sChIJDYoX5J1XfxURyDk2PXtuQjg",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-restaurant-04",
+      "city": "qassim",
+      "category": "restaurant",
+      "name_ar": "ميت موت بريدة",
+      "name_en": "Meat Moot",
+      "neighborhood_ar": "طريق الملك عبدالله",
+      "google_rating": 4.8,
+      "google_reviews_count": 5123,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "لحوم ومشويات"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D9%8A%D8%AA+%D9%85%D9%88%D8%AA+%D8%A8%D8%B1%D9%8A%D8%AF%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x157f51d7d7aa9bed:0x291de0f2cb2191fd!8m2!3d26.4145309!4d43.9365205!16s%2Fg%2F11pllqk2gz!19sChIJ7Zuq19dRfxUR_ZEhy_LgHSk",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-restaurant-05",
+      "city": "qassim",
+      "category": "restaurant",
+      "name_ar": "مطعم الميار",
+      "name_en": "Al Mayar",
+      "neighborhood_ar": "شارع الإمام البخاري",
+      "google_rating": 4.7,
+      "google_reviews_count": 6359,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "هندي"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D8%B1%E2%80%AD/data=!4m7!3m6!1s0x157f575588fa8659:0xff9eccfa85afe796!8m2!3d26.3961445!4d43.9185512!16s%2Fg%2F11t0qw63jc!19sChIJWYb6iFVXfxURluevhfrMnv8",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-entertainment-03",
+      "city": "qassim",
+      "category": "entertainment",
+      "name_ar": "سوق المسوكف التراثي",
+      "name_en": "Al Masokaf Heritage Market",
+      "neighborhood_ar": "الضليعة، عنيزة",
+      "google_rating": 4.3,
+      "google_reviews_count": 5754,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "تراث",
+        "أكل شعبي"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%B3%D9%88%D9%82+%D8%A7%D9%84%D9%85%D8%B3%D9%88%D9%83%D9%81+%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB%D9%8A%E2%80%AD/@26.0889335,43.9669143,17z/data=!3m1!4b1!4m6!3m5!1s0x1581edc37aeff025:0x2718754896e64893!8m2!3d26.0889335!4d43.9669143!16s%2Fg%2F11b773jmtp",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-entertainment-04",
+      "city": "qassim",
+      "category": "entertainment",
+      "name_ar": "حديقة الملك خالد",
+      "name_en": "King Khalid Park",
+      "neighborhood_ar": "الصفراء",
+      "google_rating": 4.2,
+      "google_reviews_count": 5709,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "حديقة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%AD%D8%AF%D9%8A%D9%82%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D8%AE%D8%A7%D9%84%D8%AF%E2%80%AD/@26.3524066,43.9588761,17z/data=!3m1!4b1!4m6!3m5!1s0x157f583e7c3a0af1:0x367cf3e51d2e568b!8m2!3d26.3524066!4d43.9588761!16s%2Fg%2F1thj78r4",
+      "description_ar": ""
+    },
+    {
+      "id": "qassim-entertainment-05",
+      "city": "qassim",
+      "category": "entertainment",
+      "name_ar": "بيت البسام التراثي",
+      "name_en": "Al Bassam Heritage House",
+      "neighborhood_ar": "الضليعة، عنيزة",
+      "google_rating": 4.5,
+      "google_reviews_count": 432,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "تراث"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A8%D9%8A%D8%AA+%D8%A7%D9%84%D8%A8%D8%B3%D8%A7%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB%D9%8A%E2%80%AD/@26.0894565,43.9672945,17z/data=!3m1!4b1!4m6!3m5!1s0x1581edc362ee68d3:0x3b31f5e45a4e4447!8m2!3d26.0894565!4d43.9672945!16s%2Fg%2F11b7xlmqlc",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-cafe-01",
+      "city": "khobar",
+      "category": "cafe",
+      "name_ar": "مقهى و محمصة وودز",
+      "name_en": "Woods Specialty Cafe & Roastery",
+      "neighborhood_ar": "شارع الأمير تركي",
+      "google_rating": 4.6,
+      "google_reviews_count": 4942,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "محمصة",
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D9%82%D9%87%D9%89+%D9%88+%D9%85%D8%AD%D9%85%D8%B5%D8%A9+%D9%88%D9%88%D8%AF%D8%B2%E2%80%AD/data=!4m7!3m6!1s0x3e49e9219d424ec3:0x69fc224e10c93f68!8m2!3d26.3130416!4d50.2237048!16s%2Fg%2F11fppmj8mh!19sChIJw05CnSHpST4RaD_JEE4i_Gk",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-cafe-02",
+      "city": "khobar",
+      "category": "cafe",
+      "name_ar": "جي لكس كافيه",
+      "name_en": "G Lux Cafe",
+      "neighborhood_ar": "شارع بشار بن برد",
+      "google_rating": 4.6,
+      "google_reviews_count": 3507,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%AC%D9%8A+%D9%84%D9%83%D8%B3+%D9%83%D8%A7%D9%81%D9%8A%D9%87%E2%80%AD/data=!4m7!3m6!1s0x3e49e7000c9217fd:0x2c7da279f047041f!8m2!3d26.2988035!4d50.1757327!16s%2Fg%2F11xtkwkd06!19sChIJ_ReSDADnST4RHwRH8HmifSw",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-cafe-03",
+      "city": "khobar",
+      "category": "cafe",
+      "name_ar": "ليلي كافيه و ورد",
+      "name_en": "Lily Cafe & Flowers",
+      "neighborhood_ar": "سيتي ووك",
+      "google_rating": 4.6,
+      "google_reviews_count": 3286,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "ورد",
+        "أجواء هادئة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Lily+Cafe+%26+Flowers+%7C+%D9%84%D9%8A%D9%84%D9%8A+%D9%83%D8%A7%D9%81%D9%8A%D9%87+%D9%88+%D9%88%D8%B1%D8%AF%E2%80%AD/data=!4m7!3m6!1s0x3e49e7a38515cf9d:0x281f96548958b912!8m2!3d26.305422!4d50.1831744!16s%2Fg%2F11h91flxqd!19sChIJnc8VhaPnST4RErlYiVSWHyg",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-cafe-04",
+      "city": "khobar",
+      "category": "cafe",
+      "name_ar": "أباوت كوفي",
+      "name_en": "About Coffee",
+      "neighborhood_ar": "طريق الأمير فواز",
+      "google_rating": 4.5,
+      "google_reviews_count": 629,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/About+coffee/data=!4m7!3m6!1s0x3e49e9006f2f0a79:0xcddcbd905eeb1ebb!8m2!3d26.2985655!4d50.2103131!16s%2Fg%2F11y9sy2hbm!19sChIJeQovbwDpST4Rux7rXpC93M0",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-cafe-05",
+      "city": "khobar",
+      "category": "cafe",
+      "name_ar": "كاي كافيه",
+      "name_en": "Cay Cafe",
+      "neighborhood_ar": "شارع الأمير تركي",
+      "google_rating": 4.3,
+      "google_reviews_count": 1786,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قرب الكورنيش"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Cay+Cafe/data=!4m7!3m6!1s0x3e49e9a8c399027b:0x748ba35b2e216508!8m2!3d26.2820969!4d50.2221444!16s%2Fg%2F11sfkrsm2p!19sChIJewKZw6jpST4RCGUhLluji3Q",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-restaurant-01",
+      "city": "khobar",
+      "category": "restaurant",
+      "name_ar": "حارة ورد",
+      "name_en": "Harat Ward",
+      "neighborhood_ar": "طريق خادم الحرمين الشريفين",
+      "google_rating": 4.8,
+      "google_reviews_count": 14905,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "لبناني"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%AD%D8%A7%D8%B1%D8%A9+%D9%88%D8%B1%D8%AF%E2%80%AD/data=!4m7!3m6!1s0x3e49e9c1ddd314e1:0x5a0081a9d176db77!8m2!3d26.2846974!4d50.1961283!16s%2Fg%2F11lc0h2sbc!19sChIJ4RTT3cHpST4Rd9t20amBAFo",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-restaurant-02",
+      "city": "khobar",
+      "category": "restaurant",
+      "name_ar": "مطعم زيبا",
+      "name_en": "Ziba Restaurant",
+      "neighborhood_ar": "طريق الملك فيصل",
+      "google_rating": 4.7,
+      "google_reviews_count": 10070,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "إيراني"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Ziba+Restaurant+%C2%AE+%D9%85%D8%B7%D8%B9%D9%85+%D8%B2%D9%8A%D8%A8%D8%A7%E2%80%AD/data=!4m7!3m6!1s0x3e49e9d7b32cf1bd:0x1a51575219e1732c!8m2!3d26.3507422!4d50.2113997!16s%2Fg%2F11sf9tzlg6!19sChIJvfEss9fpST4RLHPhGVJXURo",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-restaurant-03",
+      "city": "khobar",
+      "category": "restaurant",
+      "name_ar": "مطعم تاكارا",
+      "name_en": "Takara",
+      "neighborhood_ar": "شارع ٢٢",
+      "google_rating": 4.7,
+      "google_reviews_count": 6965,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "ياباني"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%AA%D8%A7%D9%83%D8%A7%D8%B1%D8%A7%E2%80%AD/data=!4m7!3m6!1s0x3e49e956f0f7a4c3:0x950300d850dd792f!8m2!3d26.321277!4d50.2200522!16s%2Fg%2F11h8lkft37!19sChIJw6T38FbpST4RL3ndUNgAA5U",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-restaurant-04",
+      "city": "khobar",
+      "category": "restaurant",
+      "name_ar": "مطعم جَريد",
+      "name_en": "Jareed",
+      "neighborhood_ar": "طريق الملك خالد",
+      "google_rating": 4.6,
+      "google_reviews_count": 8782,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "عربي"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%AC%D9%8E%D8%B1%D9%8A%D8%AF%E2%80%AD/data=!4m7!3m6!1s0x3e49c50041660dd5:0xf6e189c0935c0513!8m2!3d26.1844563!4d50.1850512!16s%2Fg%2F11wqdp32yn!19sChIJ1Q1mQQDFST4REwVck8CJ4fY",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-restaurant-05",
+      "city": "khobar",
+      "category": "restaurant",
+      "name_ar": "سويس بتر",
+      "name_en": "Swiss Butter",
+      "neighborhood_ar": "الكورنيش",
+      "google_rating": 4.6,
+      "google_reviews_count": 4180,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "ستيك"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Swiss+Butter/data=!4m7!3m6!1s0x3e49e9000645836f:0x3884e6d651c86e8e!8m2!3d26.3072859!4d50.2249457!16s%2Fg%2F11vspn4h0v!19sChIJb4NFBgDpST4Rjm7IUdbmhDg",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-entertainment-01",
+      "city": "khobar",
+      "category": "entertainment",
+      "name_ar": "الواجهة البحرية بالخبر",
+      "name_en": "Al Khobar Waterfront",
+      "neighborhood_ar": "الكورنيش",
+      "google_rating": 4.6,
+      "google_reviews_count": 18650,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "بحر",
+        "ممشى"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A7%D9%84%D9%88%D8%A7%D8%AC%D9%87%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9+%D8%A8%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%E2%80%AD/data=!4m7!3m6!1s0x3e49e9cb447c890f:0x1fb263fdcccbbefb!8m2!3d26.2936317!4d50.2254964!16s%2Fg%2F1tsyn7rx!19sChIJD4l8RMvpST4R-77LzP1jsh8",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-entertainment-02",
+      "city": "khobar",
+      "category": "entertainment",
+      "name_ar": "بحيرة البط",
+      "name_en": "Duck Lake",
+      "neighborhood_ar": "الكورنيش",
+      "google_rating": 4.6,
+      "google_reviews_count": 11190,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "حديقة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9+%D8%A7%D9%84%D8%A8%D8%B7%E2%80%AD/data=!4m7!3m6!1s0x3e49e90714f46acd:0x44974d96f4933806!8m2!3d26.3193796!4d50.2298633!16s%2Fg%2F11q8t6b0r5!19sChIJzWr0FAfpST4RBjiT9JZNl0Q",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-entertainment-03",
+      "city": "khobar",
+      "category": "entertainment",
+      "name_ar": "مركز الملك عبدالعزيز الثقافي العالمي (إثراء)",
+      "name_en": "Ithra",
+      "neighborhood_ar": "غرب الظهران",
+      "google_rating": 4.6,
+      "google_reviews_count": 8076,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "متحف",
+        "ثقافة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B1%D9%83%D8%B2+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2+%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A+(%D8%A5%D8%AB%D8%B1%D8%A7%D8%A1)%E2%80%AD/@26.3354262,50.1209593,17z/data=!3m1!4b1!4m6!3m5!1s0x3e49e4161593f75b:0x1c9efa1e5c89d47e!8m2!3d26.3354262!4d50.1209593!16s%2Fg%2F11c0vt3zkl",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-entertainment-04",
+      "city": "khobar",
+      "category": "entertainment",
+      "name_ar": "برج مياه الخبر",
+      "name_en": "Al Khobar Water Tower",
+      "neighborhood_ar": "طريق الكورنيش",
+      "google_rating": 4.5,
+      "google_reviews_count": 1814,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "معلم",
+        "إطلالة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A8%D8%B1%D8%AC+%D9%85%D9%8A%D8%A7%D9%87+%D8%A7%D9%84%D8%AE%D8%A8%D8%B1%E2%80%AD/data=!4m7!3m6!1s0x3e49e9b1aebfffff:0x479e125e321ae132!8m2!3d26.3078931!4d50.2318799!16s%2Fg%2F11c1tdzbnv!19sChIJ__-_rrHpST4RMuEaMl4Snkc",
+      "description_ar": ""
+    },
+    {
+      "id": "khobar-entertainment-05",
+      "city": "khobar",
+      "category": "entertainment",
+      "name_ar": "جزيرة الدغيثر",
+      "name_en": "Al Dughaither Island",
+      "neighborhood_ar": "طريق الكورنيش",
+      "google_rating": 4.4,
+      "google_reviews_count": 4611,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "بحر"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9+%D8%A7%D9%84%D8%AF%D8%BA%D9%8A%D8%AB%D8%B1%E2%80%AD/data=!4m7!3m6!1s0x3e49c34a8b2e339d:0x5acd45bdc10daca8!8m2!3d26.2724065!4d50.2206811!16s%2Fg%2F11rxhgjrzt!19sChIJnTMui0rDST4RqKwNwb1FzVo",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-cafe-01",
+      "city": "jeddah",
+      "category": "cafe",
+      "name_ar": "مقهى ومحمصة كوب وكنبة",
+      "name_en": "Cup & Couch",
+      "neighborhood_ar": "شارع اليمامة",
+      "google_rating": 4.7,
+      "google_reviews_count": 12359,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "محمصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D9%82%D9%87%D9%89+%D9%88%D9%85%D8%AD%D9%85%D8%B5%D8%A9+%D9%83%D9%88%D8%A8+%D9%88%D9%83%D9%86%D8%A8%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x15c3da7b1f423269:0x5e442635a1a3d937!8m2!3d21.5964723!4d39.1452255!16s%2Fg%2F11c0vwmxrp!19sChIJaTJCH3vawxURN9mjoTUmRF4",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-cafe-02",
+      "city": "jeddah",
+      "category": "cafe",
+      "name_ar": "انج كافيه",
+      "name_en": "Ange Cafe",
+      "neighborhood_ar": "نادي اليخوت",
+      "google_rating": 4.7,
+      "google_reviews_count": 7231,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "إطلالة بحرية"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A7%D9%86%D8%AC+%D9%83%D8%A7%D9%81%D9%8A%D9%87%E2%80%AD/data=!4m7!3m6!1s0x15c3d9a21b8613ad:0x65554d643b5ddac8!8m2!3d21.6478976!4d39.1021434!16s%2Fg%2F11wxh67g5r!19sChIJrROGG6LZwxURyNpdO2RNVWU",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-cafe-03",
+      "city": "jeddah",
+      "category": "cafe",
+      "name_ar": "كويز كافيه",
+      "name_en": "Quiz Cafe",
+      "neighborhood_ar": "طريق الأمير سلطان",
+      "google_rating": 4.7,
+      "google_reviews_count": 4024,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%83%D9%88%D9%8A%D8%B2+%D9%83%D8%A7%D9%81%D9%8A%D9%87%E2%80%AD/data=!4m7!3m6!1s0x15c3db6050ef6041:0x6440b4668bbc86c0!8m2!3d21.5537958!4d39.143116!16s%2Fg%2F11qgl8rvgr!19sChIJQWDvUGDbwxURwIa8i2a0QGQ",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-cafe-04",
+      "city": "jeddah",
+      "category": "cafe",
+      "name_ar": "تالنت كافيه",
+      "name_en": "Talent Cafe",
+      "neighborhood_ar": "شارع فلسطين",
+      "google_rating": 4.8,
+      "google_reviews_count": 1656,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/Talent+Cafe%E2%80%8E%7C%D8%AA%D8%A7%D9%84%D9%86%D8%AA+%D9%83%D8%A7%D9%81%D9%8A%D9%87%E2%80%AD/data=!4m7!3m6!1s0x15c3cf003bc3a1b5:0xb1904c5dc611f0d5!8m2!3d21.5214338!4d39.1591698!16s%2Fg%2F11ld6qq2dm!19sChIJtaHDOwDPwxUR1fARxl1MkLE",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-cafe-05",
+      "city": "jeddah",
+      "category": "cafe",
+      "name_ar": "إي جي كوفي",
+      "name_en": "AG Coffee",
+      "neighborhood_ar": "شارع الأمير محمد بن عبدالعزيز",
+      "google_rating": 4.6,
+      "google_reviews_count": 2215,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "قهوة مختصة"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/AG+Coffee/data=!4m7!3m6!1s0x15c3c5f05da1e113:0xf229673fc26b6182!8m2!3d21.5476471!4d39.1499226!16s%2Fg%2F11kk64gsbb!19sChIJE-GhXfDFwxURgmFrwj9nKfI",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-restaurant-01",
+      "city": "jeddah",
+      "category": "restaurant",
+      "name_ar": "قمر جدة",
+      "name_en": "Qamar Jeddah",
+      "neighborhood_ar": "شارع الأمير محمد بن عبدالعزيز",
+      "google_rating": 4.8,
+      "google_reviews_count": 17180,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "لبناني"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%82%D9%85%D8%B1+%D8%AC%D8%AF%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x15c3c53bd770b4e3:0x6bab8147abc5a5d0!8m2!3d21.5485965!4d39.1383522!16s%2Fg%2F11y225whpn!19sChIJ47Rw1zvFwxUR0KXFq0eBq2s",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-restaurant-02",
+      "city": "jeddah",
+      "category": "restaurant",
+      "name_ar": "مطعم العالي البحرية",
+      "name_en": "Alaaly Seafood",
+      "neighborhood_ar": "شارع عبدالمقصود خوجة",
+      "google_rating": 4.8,
+      "google_reviews_count": 14504,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "مأكولات بحرية"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x15c3db3c89f82777:0x893f53e2040bcab5!8m2!3d21.5724479!4d39.1486552!16s%2Fg%2F11t2zc5lgv!19sChIJdyf4iTzbwxURtcoLBOJTP4k",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-restaurant-03",
+      "city": "jeddah",
+      "category": "restaurant",
+      "name_ar": "شان",
+      "name_en": "Shan",
+      "neighborhood_ar": "شارع أحمد العطاس",
+      "google_rating": 4.7,
+      "google_reviews_count": 10549,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "مطعم فاخر"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%B4%D8%A7%D9%86%E2%80%AD/data=!4m7!3m6!1s0x15c3db30710f3185:0x74fcc387fd100cb2!8m2!3d21.5913792!4d39.1309572!16s%2Fg%2F11tp63420b!19sChIJhTEPcTDbwxURsgwQ_YfD_HQ",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-restaurant-04",
+      "city": "jeddah",
+      "category": "restaurant",
+      "name_ar": "مطعم المراكبي للمأكولات البحرية",
+      "name_en": "Elmarakby Seafood",
+      "neighborhood_ar": "ممشى سعود الفيصل",
+      "google_rating": 4.7,
+      "google_reviews_count": 5194,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "مأكولات بحرية"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%83%D8%A8%D9%8A+%D9%84%D9%84%D9%85%D8%A3%D9%83%D9%88%D9%84%D8%A7%D8%AA+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x15c3d19e4366eeef:0xec2c84495457a675!8m2!3d21.5575511!4d39.1714966!16s%2Fg%2F11l2b_6c38!19sChIJ7-5mQ57RwxURdaZXVEmELOw",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-restaurant-05",
+      "city": "jeddah",
+      "category": "restaurant",
+      "name_ar": "مطعم صمد العراقي",
+      "name_en": "Samad Iraqi Restaurant",
+      "neighborhood_ar": "طريق الأمير سلطان",
+      "google_rating": 4.3,
+      "google_reviews_count": 10656,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "عراقي"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%B7%D8%B9%D9%85+%D8%B5%D9%85%D8%AF+%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82%D9%8A+%D8%AC%D8%AF%D8%A9+-Samad+Iraqi+Restaurant+Jeddah%E2%80%AD/data=!4m7!3m6!1s0x15c3db371bd08f17:0x6d3a68b36e29c8f0!8m2!3d21.6016271!4d39.1428048!16s%2Fg%2F11n2tc6lsy!19sChIJF4_QGzfbwxUR8MgpbrNoOm0",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-entertainment-01",
+      "city": "jeddah",
+      "category": "entertainment",
+      "name_ar": "الواجهة البحرية",
+      "name_en": "Jeddah Waterfront",
+      "neighborhood_ar": "الكورنيش",
+      "google_rating": 4.7,
+      "google_reviews_count": 19471,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "بحر",
+        "ممشى"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D8%A7%D9%84%D9%88%D8%A7%D8%AC%D9%87%D8%A9+%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x15c3db24c17a0169:0x29d5fef9eb2be406!8m2!3d21.6158207!4d39.1062671!16s%2Fg%2F11p0frbg0m!19sChIJaQF6wSTbwxURBuQr6_n-1Sk",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-entertainment-02",
+      "city": "jeddah",
+      "category": "entertainment",
+      "name_ar": "نافورة الملك فهد",
+      "name_en": "King Fahd's Fountain",
+      "neighborhood_ar": "الأندلس",
+      "google_rating": 4.5,
+      "google_reviews_count": 12524,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "معلم",
+        "أعلى نافورة في العالم"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%86%D8%A7%D9%81%D9%88%D8%B1%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%87%D8%AF%E2%80%AD/@21.5156556,39.1450512,17z/data=!3m1!4b1!4m6!3m5!1s0x15c3c5e81fde15bf:0x380778fdc235f710!8m2!3d21.5156556!4d39.1450512!16s%2Fm%2F02627fs",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-entertainment-03",
+      "city": "jeddah",
+      "category": "entertainment",
+      "name_ar": "متحف بيت نصيف",
+      "name_en": "Bait Naseef Museum",
+      "neighborhood_ar": "البلد",
+      "google_rating": 4.4,
+      "google_reviews_count": 6034,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 1,
+      "family_friendly": true,
+      "tags_ar": [
+        "جدة التاريخية",
+        "تراث"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%AA%D8%AD%D9%81+%D8%A8%D9%8A%D8%AA+%D9%86%D8%B5%D9%8A%D9%81%E2%80%AD/data=!4m7!3m6!1s0x15c3cf1a37a88431:0x69832c2af70f8007!8m2!3d21.4841396!4d39.1876259!16s%2Fm%2F02q6hcy!19sChIJMYSoNxrPwxURB4AP9yosg2k",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-entertainment-04",
+      "city": "jeddah",
+      "category": "entertainment",
+      "name_ar": "متحف مدينة الطيبات العالمية للعلوم والمعرفة",
+      "name_en": "Tayebat Museum",
+      "neighborhood_ar": "الفيصلية",
+      "google_rating": 4.5,
+      "google_reviews_count": 2628,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 2,
+      "family_friendly": true,
+      "tags_ar": [
+        "متحف"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%85%D8%AA%D8%AD%D9%81+%D9%85%D8%AF%D9%8A%D9%86%D8%A9+%D8%A7%D9%84%D8%B7%D9%8A%D8%A8%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9+%D9%84%D9%84%D8%B9%D9%84%D9%88%D9%85+%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%81%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x15c3d0f5687c6755:0x2eb6eb4b515cd77c!8m2!3d21.5809932!4d39.1766658!16s%2Fg%2F120wkvxm!19sChIJVWd8aPXQwxURfNdcUUvrti4",
+      "description_ar": ""
+    },
+    {
+      "id": "jeddah-entertainment-05",
+      "city": "jeddah",
+      "category": "entertainment",
+      "name_ar": "فقيه أكواريوم",
+      "name_en": "Fakieh Aquarium",
+      "neighborhood_ar": "الكورنيش",
+      "google_rating": 4.2,
+      "google_reviews_count": 37661,
+      "rating_checked_on": "2026-10-02",
+      "price_level": 3,
+      "family_friendly": true,
+      "tags_ar": [
+        "أحياء بحرية"
+      ],
+      "hours_ar": "",
+      "best_time_ar": "",
+      "maps_url": "https://www.google.com/maps/place/%D9%81%D9%82%D9%8A%D9%87+%D8%A3%D9%83%D9%88%D8%A7%D8%B1%D9%8A%D9%88%D9%85%E2%80%AD/data=!4m7!3m6!1s0x15c3db26f0d96355:0x25df656d9311cb07!8m2!3d21.5722026!4d39.1096166!16s%2Fg%2F1hjglz_np!19sChIJVWPZ8CbbwxURB8sRk21l3yU",
       "description_ar": ""
     }
   ]
