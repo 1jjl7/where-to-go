@@ -2,7 +2,7 @@
 
 A bilingual (Arabic / English) city guide that shows the best-rated cafes, restaurants and things to do in **Riyadh, Qassim, Al Khobar and Jeddah**, ranked with a weighted rating so that places with many reviews are not beaten by places with only a few.
 
-**Live demo:** not published yet (planned on GitHub Pages).
+**Live demo:** https://1jjl7.github.io/where-to-go/
 
 ![Home page - Qassim](docs/home.png)
 
@@ -80,8 +80,8 @@ score = (v / (v + m)) × R + (m / (v + m)) × C
 The pages load JSON with `fetch`, so they need a local web server (opening the file directly will not load the data).
 
 ```bash
-git clone https://github.com/1jjl7/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/1jjl7/where-to-go.git
+cd where-to-go
 python -m http.server 8000
 ```
 
@@ -104,7 +104,7 @@ python check_places.py
 
 - Store visitor reviews in a database (e.g. Firebase or Supabase).
 - Optionally load live ratings from the Google Places API, keeping only `place_id` as Google's terms require.
-- Publish on GitHub Pages.
+- Replace the hero photos with openly licensed ones.
 
 ## Author
 
